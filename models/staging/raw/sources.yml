@@ -81,7 +81,7 @@ models:
         description: Type of indicator for which info is logged
       - name: 'data_source_name'
         description: Source information for the data
-  - name: stg_eda_stock_history
+  - name: stg_stock_history
     description: Staging Model for stock trading history created in dbt project
     columns:
       - name: 'company'
