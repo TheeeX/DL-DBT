@@ -6,4 +6,58 @@ sources:
     schema: economy
     tables:
       - name: exratescc2018
+        description: Source Model for exchange rates
+        columns:
+          - name: 'Currency'
+            description: Symbol for the Currency
+          - name: 'Currency Description'
+            description: Info about the currency
+          - name: 'Currency Exchange'
+            description: Information about Currency Exchange
+          - name: 'Currency Name'
+            description: Name of the currency
+          - name: 'Currency PairId'
+            description: Id assigned to the currency pair
+          - name: 'Currency Unit'
+            description: Currency unit for the stock value
+          - name: 'Date'
+            description: Date for stock information
+          - name: 'Frequency'
+            description: Rate at which stock data is updated
+          - name: 'Indicator'
+            description: Represents type of indicator for this data
+          - name: 'Indicator Name'
+            description: Type of indicator for which info is logged
+          - name: 'Scale'
+            description: Measurement scale for the data
+          - name: 'Units'
+            description: Units for the stock value
+          - name: 'Value'
+            description: Value of the stock
       - name: usindssp2020
+        description: Source Model for stock trading history
+        columns:
+          - name: 'Company'
+            description: Short name for the company
+          - name: 'Company Name'
+            description: Full name of the company
+          - name: 'Company Ticker'
+            description: Keyword used as ticker for the company
+          - name: 'Date'
+            description: Date for stock information
+          - name: 'Frequency'
+            description: Rate at which stock data is updated
+          - name: 'Indicator'
+            description: Represents type of indicator for this data
+          - name: 'Indicator Name'
+            description: Type of indicator for which info is logged
+          - name: 'Scale'
+            description: Measurement scale for the data
+          - name: 'Stock Exchange'
+            description: Id representing the stock exchange
+          - name: 'Stock Exchange Name'
+            description: Name of the stock excahnge
+          - name: 'Units'
+            description: Units for the stock value
+          - name: 'Value'
+            description: Value of the stock
