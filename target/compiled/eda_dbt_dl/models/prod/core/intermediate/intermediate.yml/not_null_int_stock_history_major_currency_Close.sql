@@ -2,8 +2,10 @@
     
     
 
-select *
-from ECONOMY_DATA_ENRICHED.dbt_schema_prod.int_stock_history_major_currency
+
+
+select Close
+from PC_DBT_DB.dbt_zpaul_prod.int_stock_history_major_currency
 where Close is null
 
 

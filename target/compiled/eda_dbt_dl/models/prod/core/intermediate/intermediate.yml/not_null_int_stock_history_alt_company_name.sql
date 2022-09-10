@@ -2,8 +2,10 @@
     
     
 
-select *
-from ECONOMY_DATA_ENRICHED.dbt_schema_prod.int_stock_history_alt
+
+
+select company_name
+from PC_DBT_DB.dbt_zpaul_prod.int_stock_history_alt
 where company_name is null
 
 
